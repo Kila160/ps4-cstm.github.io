@@ -1,38 +1,47 @@
 /*BEGIN PS4 Controller Styling*/
-.controller.custom{
+.controller.custom {
     background: url(https://i.imgur.com/Is3Julw.png);
     height: 598px;
     width: 806px;
+    /*    margin-left: -403px;
+        margin-top: -280px;*/
 }
+
 .custom.disconnected {
     background: url(https://i.imgur.com/AfXUKtH.png);
 }
+
 .custom.disconnected div {
     display: none;
 }
+
 .custom .triggers {
     width: 588px;
     height: 90px;
     position: absolute;
     left: 109px;
 }
+
 .custom .trigger {
     width: 99px;
     height: 100%;
     background: url(https://i.imgur.com/bITWSgB.png);
     opacity: 0;
 }
+
 .custom .trigger.left {
     float: left;
 }
+
 .custom .trigger.right {
     float: right;
-    /* background-position-x: 99px; */
+    background-position-x: 99px;
 }
+
 .custom .bumper {
     width: 99px;
     height: 23px;
-    background: url(https://i.imgur.com/QcwsDdN.png);
+    background: url(https://i.imgur.com/QcwsDdN.png) no-repeat;
     opacity: 0;
 }
 
@@ -49,8 +58,8 @@
 }
 
 .custom .bumper.left {
-    -webkit-transform: rotateY(180deg);
-    transform: rotateY(180deg);
+    /* -webkit-transform: rotateY(180deg); */
+    /* transform: rotateY(180deg); */
     float: left;
 }
 
@@ -84,26 +93,21 @@
 }
 
 /*Not needed, but I like keeping them here for posterity*/
-/*.ds4 .quadrant{
-position: absolute;
-background: url(ps4-assets/player-n.svgz);
-height: 17px;
-width: 111px;
-top: 140px;
-left: 240px;
+.custom .quadrant{
+    
 }
 .custom .p0{
-background-position: 0 -6px;
+    
 }
 .custom .p1{
-background-position: 0 -28px;
+
 }
 .custom .p2{
-background-position: 0 -49px;
+
 }
 .custom .p3{
-background-position: 0 -70px;
-}*/
+
+}
 .custom .arrows {
     position: absolute;
     width: 352px;
@@ -116,19 +120,23 @@ background-position: 0 -70px;
     background: url(https://i.imgur.com/e8mQXkc.png);
     width: 28px;
     height: 46px;
+    opacity: 0;
 }
+
 .custom .back.pressed, .custom .start.pressed {
-    background-position-y: -21px;
-    margin-top: 2px;
+    /* background-position-y: -21px; */
+    /* margin-top: 2px; */
     opacity: 1;
 }
+
 .custom .back {
     float: left;
-    width: 28px;
+    /* width: 28px; */
 }
+
 .custom .start {
     float: right;
-    width: 28px;
+    /* width: 28px; */
     background-position: 28px 0;
 }
 
@@ -149,7 +157,7 @@ background-position: 0 -70px;
 
 .custom .button.pressed {
     background-position-y: 55px;
-    margin-top: 5px;
+    /* margin-top: 5px; */
 }
 
 .custom .a {
@@ -255,14 +263,13 @@ background-position: 0 -70px;
 }
 
 .custom .face.pressed {
-    margin-top: 5px;
+    /* margin-top: 5px; */
     background-position-y: 52px;
 }
 
 .custom.half {
     margin-top: -300px;
 }
-
 .custom .trigger-button.left{
     
 }
@@ -275,8 +282,6 @@ background-position: 0 -70px;
 .custom .trigger-button.right.pressed{
     
 }
-
-
 .fstick{
     position: absolute;
     width: 140px;
