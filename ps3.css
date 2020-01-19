@@ -1,47 +1,38 @@
 /*BEGIN PS4 Controller Styling*/
-.controller.custom {
+.controller.custom{
     background: url(https://i.imgur.com/Is3Julw.png);
     height: 598px;
     width: 806px;
-    /*    margin-left: -403px;
-        margin-top: -280px;*/
 }
-
 .custom.disconnected {
     background: url(https://i.imgur.com/AfXUKtH.png);
 }
-
 .custom.disconnected div {
     display: none;
 }
-
 .custom .triggers {
     width: 588px;
     height: 90px;
     position: absolute;
     left: 109px;
 }
-
 .custom .trigger {
     width: 99px;
     height: 100%;
     background: url(https://i.imgur.com/bITWSgB.png);
     opacity: 0;
 }
-
 .custom .trigger.left {
     float: left;
 }
-
 .custom .trigger.right {
     float: right;
-    background-position-x: 99px;
+    /* background-position-x: 99px; */
 }
-
 .custom .bumper {
     width: 99px;
     height: 23px;
-    background: url(https://i.imgur.com/QcwsDdN.png) no-repeat;
+    background: url(https://i.imgur.com/QcwsDdN.png);
     opacity: 0;
 }
 
@@ -58,8 +49,8 @@
 }
 
 .custom .bumper.left {
-    /* -webkit-transform: rotateY(180deg); */
-    /* transform: rotateY(180deg); */
+    -webkit-transform: rotateY(180deg);
+    transform: rotateY(180deg);
     float: left;
 }
 
@@ -125,23 +116,19 @@ background-position: 0 -70px;
     background: url(https://i.imgur.com/e8mQXkc.png);
     width: 28px;
     height: 46px;
-    opacity: 0;
 }
-
 .custom .back.pressed, .custom .start.pressed {
-    /* background-position-y: -21px; */
-    /* margin-top: 2px; */
+    background-position-y: -21px;
+    margin-top: 2px;
     opacity: 1;
 }
-
 .custom .back {
     float: left;
-    /* width: 28px; */
+    width: 28px;
 }
-
 .custom .start {
     float: right;
-    /* width: 28px; */
+    width: 28px;
     background-position: 28px 0;
 }
 
@@ -162,7 +149,7 @@ background-position: 0 -70px;
 
 .custom .button.pressed {
     background-position-y: 55px;
-    /* margin-top: 5px; */
+    margin-top: 5px;
 }
 
 .custom .a {
@@ -268,7 +255,7 @@ background-position: 0 -70px;
 }
 
 .custom .face.pressed {
-    /* margin-top: 5px; */
+    margin-top: 5px;
     background-position-y: 52px;
 }
 
@@ -276,4 +263,49 @@ background-position: 0 -70px;
     margin-top: -300px;
 }
 
+.custom .trigger-button.left{
+    
+}
+.custom .trigger-button.right{
+    
+}
+.custom .trigger-button.left.pressed{
+    
+}
+.custom .trigger-button.right.pressed{
+    
+}
+
+
+.fstick{
+    position: absolute;
+    width: 140px;
+    height: 132px;
+    top: 192px;
+    left: 74px;
+}
+.fstick.up{
+  
+}
+.fstick.down{
+  
+}
+.fstick.left{
+  
+}
+.fstick.right{
+  
+}
+.fstick.up.right{
+  
+}
+.fstick.up.left{
+  
+}
+.fstick.down.right{
+  
+}
+.fstick.down.left{
+  
+}
 /*END PS4 Controller Styling*/
