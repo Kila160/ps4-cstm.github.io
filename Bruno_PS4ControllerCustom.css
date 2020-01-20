@@ -1,6 +1,6 @@
 /*BEGIN PS4 Controller Styling*/
 .controller.custom {
-    background: url(https://i.imgur.com/ofPHAZI.png);
+    background: url(https://i.imgur.com/LMDPK1m.png);
     height: 598px;
     width: 806px;
     /*    margin-left: -403px;
@@ -41,7 +41,7 @@
 .custom .bumper {
     width: 99px;
     height: 23px;
-    background: url(https://i.imgur.com/PiTe3ZD.png) no-repeat;
+    background: url(https://i.imgur.com/TwAHs1L.png) no-repeat;
     opacity: 0;
 }
 
